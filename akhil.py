@@ -31,7 +31,7 @@ re9 = requests.get('https://reqres.in/api/register')
 print(re9.json())
 
 re10 = requests.get('https://reqres.in/api/register')
-print(re10.jason())
+print(re10.json())
 
 re11 = requests.get('https://reqres.in/api/login')
 print(re11.json())
@@ -41,3 +41,4 @@ print(re12.json())
 
 re13 = requests.get('https://reqres.in/api/users?delay=3')
 print(re13.json())
+
